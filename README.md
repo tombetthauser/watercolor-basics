@@ -1,6 +1,6 @@
 ![doggle](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F32a8gyKSgjM8E%2Fgiphy.gif&f=1&nofb=1)
 
-# Watercolor Basics
+# Watercolor Basics?
 
 Basic tips for developing an everyday open-ended watercolor practice. For expressive observational painting more than rigid illustration. Mostly wisdom picked up from 10+ years learning, teaching and making art for some reason.
 
