@@ -44,7 +44,6 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * open it up, feel the paper
 * trust your gut
 * trial and error
-
 * Hot Press (smooth surface)
 * Cold Press (rough surface)
 * Watercolor Blocks (you use it one sheet at a time, prevents paper warping a little)
