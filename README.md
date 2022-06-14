@@ -26,13 +26,15 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 
 * brushes are all doomed
 * buy them on sale, follow your gut, no rules
-* like magic wands / lightsabers (for the nerds)
-* don't worry about natural vs. synthetic hair
-* keep the plastic tubes
+* like magic wands / lightsabers maybe
+* natural vs. synthetic hair doesn't matter
+* keep plastic tubes if brushes have them
 * rinse, wring out and re-shape often
-* a medium round is all you need
-* 3-5 sized flats help
-* don't leave them in water ever
+* reshape gently when cleaed out and moist
+* aim for original shape of brush
+* a medium round (the pointy but wide-ish one) is all you need
+* 3-5 sized flats (the flat square ones) help
+* don't leave them in water ever (ever)
 * when they lose their shape keep them for scumbling (rough painting)
 * when they still keep their shape be gentle with them
 
@@ -44,40 +46,51 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 
 * get what's on sale / cheap
 * open it up, feel the paper
-* small / medium paper is good
-* trust your gut
-* trial and error
-* Hot Press (smooth surface)
-* Cold Press (rough surface)
-* Watercolor Blocks (you use it one sheet at a time, prevents paper warping a little)
-* Loose Sheets (this is a super normal way to buy fancy paper, I usually tear it into sections with a ruler rather than scissors to keep a rough natural edge)
-* Rag Paper (fancy, 100% cotton, fun but not actually that noticable imo)
-* Paper Weight (in lbs or gsm usually, 90+ lbs is a good rule of thumb, if it feels thick enough it generally is though)
+* medium heavy is good enough
+* postcard to printer paper sizes are good
+* trust your gut / trial and error
+* hot press means smooth surface
+* cold press means rough surface
+* they're both fine / go with your gut
+* watercolor blocks you use one sheet at a time
+* prevents paper warping a little
+* old school / fun / unecessary
+* loose sheets are fancier
+* tear them into sections with ruler to keep nice edge
+* rag paper means fancy 100% cotton
+* old school / fun / unecessary / unnoticeable
+* paper weight is in lbs or gsm usually
+* 90+ lbs is a good rule of thumb
+* if it feels thick enough it is
 
 
 ## Other Materials
 
 <!-- Some other stuff I suggest you pick up. The blotter paper (or paper towel, ripped pieces of water color paper etc) is important for making pressing against wet sections of your paintings to make negative marks and dry out overly-wet paper. -->
 
-* squeezable water bottle
-* dixie / condiment cups (for water) 
-* blotter paper / paper towel / ripped pieces of watercolor paper (for negative marks / drying out overly wet paper)
+* squeezable water bottle / with plastic nipple thing
+* dixie / condiment cups for water
+* blotter paper / paper towel / ripped pieces of thick paper
+* for negative marks / drying out overly wet paper
 
 
 ## Painting
 
 * paint shapes not lines
-* areas of shadow and light
-* don't worry too much about shape & location of shapes
+* abstract shapes / areas of shadow and light
+* don't fixate on size & location of shapes
 * zoom WAY in on subjects
-* draw a box in pencil
-* force shapes / objects to fall off edge
+* draw a box with pencil / ruler to paint in
+* force shapes / objects to fall off edge / zoom in
 * no un-broken edges
-* use chromatic black (start with dark brown and dark blue)
-* dont use color at first (just chromatic black)
+* use chromatic black / mix dark brown and dark blue
+* any dark complimentary colors can work
+* dont use color at first / just chromatic black
 * don't let yourself think about objects / people / things
+* turn off brain / eyes and hands only
 * just abstract shapes of light and shadow
 * let your palette and paint bricks get dirty
 * dirty watercolors make natural colors
 * clean them with paper towels and water occaisionally
-* add details after all this if desired
+* add details / color after all this if desired
+* erase dried paint by re-wetting / using blotter paper
