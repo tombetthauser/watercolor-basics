@@ -1,4 +1,6 @@
-# Watercolor Basics 🎨💦
+!(doggle)[https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F32a8gyKSgjM8E%2Fgiphy.gif&f=1&nofb=1]
+
+# Watercolor Basics
 
 Basic tips for developing an everyday open-ended watercolor practice. For expressive observational painting more than rigid illustration. Mostly lessons learned from 10+ years learning, teaching and making art in a variety of mediums.
 
@@ -42,6 +44,7 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 
 * get what's on sale / cheap
 * open it up, feel the paper
+* small / medium paper is good
 * trust your gut
 * trial and error
 * Hot Press (smooth surface)
