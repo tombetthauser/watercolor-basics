@@ -111,3 +111,26 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * purple and green can be either
 * whats the warmest thing you can see / whats the coolest
 * use as few colors as possible / or none
+
+## History
+
+* history is cool but optional
+* watercolor originates from africa / the middle east
+* where gum arabic comes from traditionally
+* it was used to produce ancient artworks / maybe prehistoric
+* it reached europe in the middle ages
+* used for spooky illuminated manuscripts
+* gum arabic is the traditional binder in watercolor
+* fun fact you can eat gum arabic and they use it in desserts
+* it smells delicious
+* dont eat your watercolors
+* all paint is primarily pigment + binder
+* oil paint uses oil as its binder
+* acrylic uses acrylic
+* watercolor uses gum arabic or synthetic replacements
+* its special property is its water solubility
+* it remains semi-soluble even after drying
+* but it resists increasingly as it ages
+* thats why you use water with it
+* also why you can layer etc
+* good to know maybe
