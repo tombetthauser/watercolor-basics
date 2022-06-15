@@ -66,6 +66,8 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * paper weight is in lbs or gsm usually
 * 90+ lbs is a good rule of thumb
 * if it feels thick enough it is
+* [this is cheap and fine / my students always used it](https://www.amazon.com/Strathmore-361-9-Watercolor-Press-Sheets/dp/B0027AAIS0/ref=sr_1_7?keywords=watercolor+paper&qid=1655322913&sr=8-7)
+* [this is fancy and also fine / I use it for painting and drawing](https://www.amazon.com/Arches-Watercolor-Pad-Hot-Press/dp/B008N0BD0A/ref=pd_bxgy_img_sccl_2/131-6698260-2793713?pd_rd_w=d3nit&content-id=amzn1.sym.7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_p=7757a8b5-874e-4a67-9d85-54ed32f01737&pf_rd_r=E4JQZ5HQ9VWKMT0G71XY&pd_rd_wg=NZ79i&pd_rd_r=831d8404-8810-4381-9c08-3eb5e53e3d8d&pd_rd_i=B008N0BD0A&psc=1)
 
 
 ## Other Materials
