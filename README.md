@@ -2,7 +2,7 @@
 
 # Watercolor Basics?
 
-Basic tips for developing an everyday open-ended watercolor practice. For expressive observational painting more than rigid illustration. Mostly wisdom picked up from 10+ years learning, teaching and making art for some reason.
+Basic tips for developing an everyday open-ended watercolor practice. For expressive observational painting more than rigid illustration. Mostly wisdom picked up from 10+ years learning, teaching and making art for no reason.
 
 ---
 
@@ -94,3 +94,4 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * clean them with paper towels and water occaisionally
 * add details / color after all this if desired
 * erase dried paint by re-wetting / using blotter paper
+* spend as much time looking at your subject as you do looking at your painting
