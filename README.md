@@ -24,7 +24,7 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * red flag if all the bricks are light / chalky looking
 * red flag if the bricks are round / don't have pigments listed
 * they might work a little but you'll hate painting
-* [just buy this / my mom bought it for me / I still use it](https://www.amazon.com/Winsor-Newton-Cotman-Colour-Compact/dp/B00004THXH/ref=sr_1_6?keywords=winsor+and+newton+watercolor+paint&qid=1655241652&sprefix=winsor%2Caps%2C234&sr=8-6)
+* [just buy this / my mom bought it for me](https://www.amazon.com/Winsor-Newton-Cotman-Colour-Compact/dp/B00004THXH/ref=sr_1_6?keywords=winsor+and+newton+watercolor+paint&qid=1655241652&sprefix=winsor%2Caps%2C234&sr=8-6)
 
 ## Brushes
 
