@@ -11,7 +11,7 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 <!-- This really should be all you need until you want to move up in scale. It doesn't suite every painting style though so just know buying water color paints in tubes is an option also. I just never personally saw students or professionals have much use for them unless they decided to work with guache, which is in the same family as standard watercolors but completely different in terms of style, technique etc. -->
 
 * keep it simple
-* buy brick sets, not tubes
+* buy brick sets / not tubes
 * more money only helps up to ~$30
 * check the pigments on the paint bricks
 * if they list actual pigments its good enough
@@ -25,11 +25,11 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 <!-- If you get a good feeling from it for any reason and it's cheap, go for it. Like you're picking out a magic wand (for harry potter nerds) or a lightsaber (for star wars nerds even though that doesn't make sense). I researched and experimented with a lot of different brush purchasing and maintenance systems and ended up coming back to this much simpler way of doing things over and over again.  -->
 
 * brushes are all doomed
-* buy them on sale, follow your gut, no rules
+* buy them on sale / follow your gut / no rules
 * like magic wands / lightsabers maybe
 * natural vs. synthetic hair doesn't matter
 * keep plastic tubes if brushes have them
-* rinse, wring out and re-shape often
+* rinse / wring out / re-shape by hand often
 * reshape gently when cleaed out and moist
 * aim for original shape of brush
 * a medium round (the pointy but wide-ish one) is all you need
@@ -45,8 +45,8 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 <!-- Specifics on paper really don't matter too much in my experience as long the paper you're using is fairly thick. There are a buch of confusing types though so here are the general options. All of these work fine. -->
 
 * get what's on sale / cheap
-* open it up, feel the paper
-* medium heavy is good enough
+* open it up / feel the paper
+* medium heay is good enough
 * postcard to printer paper sizes are good
 * trust your gut / trial and error
 * hot press means smooth surface
