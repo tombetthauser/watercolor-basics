@@ -98,3 +98,12 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * look up / look down / look up / look down
 * find one tiny color / shape / highlight / shadow etc at a time
 * don't think about what it is
+* think about color and value (darkness) as separate
+* think about value (darkness) as relative / on 1-10 scale
+* the darkest thing you can see is 10 / lightest 1 etc.
+* think of color as relative / warm and cool
+* red / orange / yellow are warm
+* blue is cool
+* purple and green can be either
+* whats the warmest thing you can see / whats the coolest
+* use as few colors as possible / or none
