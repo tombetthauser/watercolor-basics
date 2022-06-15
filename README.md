@@ -4,7 +4,7 @@
 
 # Watercolor Basics
 
-Basic tips for developing an everyday open-ended watercolor practice. For expressive observational painting more than rigid illustration. Consolidated quasi-wisdom picked up from 10+ years learning, teaching and making art for no reason. Put together for together for a dev friend who bought some paints.
+Basic tips for developing an everyday open-ended watercolor practice. For expressive observational painting more than rigid illustration. Consolidated quasi-wisdom picked up from 10+ years learning, teaching and making art for no reason. Put together for a dev friend who bought some paints.
 
 ```
 ⚠️ All super-subjective and a work in progress, adding more as I think of it...
