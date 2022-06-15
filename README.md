@@ -51,7 +51,7 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 
 * get what's on sale / cheap
 * open it up / feel the paper
-* medium heay is good enough
+* medium heavy is good enough
 * postcard to printer paper sizes are good
 * trust your gut / trial and error
 * hot press means smooth surface
