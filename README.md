@@ -1,5 +1,7 @@
 ![doggle](https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fmedia.giphy.com%2Fmedia%2F32a8gyKSgjM8E%2Fgiphy.gif&f=1&nofb=1)
 
+(dog obviously using acrylic paint)
+
 # Watercolor Basics
 
 Basic tips for developing an everyday open-ended watercolor practice. For expressive observational painting more than rigid illustration. Consolidated quasi-wisdom picked up from 10+ years learning, teaching and making art for no reason. Put together for together for a dev friend who bought some paints.
