@@ -138,4 +138,4 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * also why you can layer etc
 * good to know maybe
 * [obvious wikipedia link for watercolor](https://en.wikipedia.org/wiki/Watercolor_painting)
-* [less obvious wikipedia link for gum arabic](https://en.wikipedia.org/wiki/Watercolor_painting](https://en.wikipedia.org/wiki/Gum_arabic#Painting_and_art)
+* [less obvious wikipedia link for gum arabic](https://en.wikipedia.org/wiki/Gum_arabic#Painting_and_art)
