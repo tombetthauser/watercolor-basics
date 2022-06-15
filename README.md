@@ -87,6 +87,13 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 
 ## Painting
 
+* keep your paper dry or moist not super wet
+* cool effects possible with wet paper but...
+* wet paper can be hard to control / frustrating
+* use paper towels to control wetness
+* paper towel wadded up in same hand as brush always
+* use paper towel as much as brush sometimes
+* add paint / dab off moisture with towel / repeat
 * paint shapes not lines
 * abstract shapes / areas of shadow and light
 * don't fixate on size & location of shapes
