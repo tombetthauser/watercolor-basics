@@ -95,3 +95,6 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * add details / color after all this if desired
 * erase dried paint by re-wetting / using blotter paper
 * spend as much time looking at your subject as you do looking at your painting
+* look up / look down / look up / look down
+* find one tiny color / shape / highlight / shadow etc at a time
+* don't think about what it is
