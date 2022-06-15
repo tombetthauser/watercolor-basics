@@ -107,3 +107,7 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * purple and green can be either
 * whats the warmest thing you can see / whats the coolest
 * use as few colors as possible / or none
+
+```
+⚠️ All super-subjective and a work in progress, adding more as I think of it...
+```
