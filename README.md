@@ -38,7 +38,7 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * natural vs. synthetic hair doesn't matter
 * keep plastic tubes if brushes have them
 * rinse / wring out / re-shape by hand often
-* reshape gently when cleaed out and moist
+* reshape gently when cleaned out and moist
 * aim for original shape of brush
 * a medium round (the pointy but wide-ish one) is all you need
 * 3-5 sized flats (the flat square ones) help
