@@ -41,6 +41,7 @@ Basic tips for developing an everyday open-ended watercolor practice. For expres
 * don't leave them in water ever (ever)
 * when they lose their shape keep them for scumbling (rough painting)
 * when they still keep their shape be gentle with them
+* [these are probably fine to start with / better to buy in person](https://www.amazon.com/Paintbrushes-Watercolor-Painting-Miniature-Detailing/dp/B095WJVL5G/ref=sr_1_25?crid=D8TXX34O9RLV&keywords=watercolor%2Bbrushes&qid=1655323005&sprefix=watercolor%2B%2Caps%2C154&sr=8-25&th=1)
 
 ## Paper
 
