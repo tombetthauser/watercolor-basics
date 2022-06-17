@@ -4,7 +4,7 @@
 
 # Watercolor Basics
 
-Some personal stuff that I observed help frustrated and talented art students over the past 10+ years making, learning and teaching art professionally for no reason. Geared towards developing an everyday open-ended watercolor practice for expressive observational painting more than old-school illustration. Put together for a dev friend who bought some paints.
+Some personal stuff that I observed help frustrated and talented art students over 10+ years making, learning and teaching art professionally for no reason. Geared towards developing an everyday open-ended watercolor practice for expressive observational painting more than old-school illustration. Put together for a dev friend who bought some paints.
 
 ```
 ⚠️ All super-subjective and a work in progress, adding more as I think of it...
