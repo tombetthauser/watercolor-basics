@@ -150,3 +150,52 @@ Some personal stuff that I observed help frustrated and talented art students ov
 * good to know maybe
 * [obvious wikipedia link for watercolor](https://en.wikipedia.org/wiki/Watercolor_painting)
 * [less obvious wikipedia link for gum arabic](https://en.wikipedia.org/wiki/Gum_arabic#Painting_and_art)
+
+---
+
+# Some Exercises
+Some favorite exercises I used to use in my art classes. A lot of these pretty regularly got students who hated everything they painted to make something they felt really good about. These can be done individually or mixed and matched.
+
+```
+⚠️ Still adding to these and cleaning them up...
+```
+
+## One Color
+- paint something with just one color
+- pretend like you're drawing not painting
+- optionally choose a color that looks dark
+- some classics are alizarin red, pthalo blue, raw umber (NOT black)
+  
+## Two Colors
+- choose two colors that are dark when mixed together
+- mix a decent amount together to be as dark as possible
+- again pretend like you're drawing not painting
+- [complimentary colors](https://en.wikipedia.org/wiki/Complementary_colors) are not required
+- some classics are ultramarine blue and raw umber or alizarin red and pthalo blue
+
+<!-- ### High Contrast -->
+
+<!-- ### Negative Painting -->
+
+### Tight Frame
+- draw a box lightly with a pencil
+- leave a medium or large margin of blank paper around it
+- do a light sketch of whatever you want to paint
+- zoom way in on your subject matter
+- make sure every feature or object is cutoff by at least one side of your box
+- no objects should be completely visible in the frame
+- consider working with just one or two colors (see above)
+
+### Simple Still Life
+- a still life can be anything thats not a landscape or a portrait
+- often its a random close arrangement of three or more objects
+- at least two of the objects should probably be touching
+
+<!-- ### Simple Landscape -->
+
+<!-- ### Simple Portrait -->
+
+<!-- ### Simple Abstraction -->
+
+<!-- ### Master Copy -->
+
