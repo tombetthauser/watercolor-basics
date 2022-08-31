@@ -10,6 +10,8 @@ Some personal stuff that I observed help frustrated and talented art students ov
 ⚠️ All super-subjective and a work in progress, adding more as I think of it...
 ```
 
+Recently Added --> [Exercises! 🎉](#some-exercises)
+
 ---
 
 ## Paints
@@ -173,11 +175,11 @@ Some favorite exercises I used to use in my art classes. A lot of these pretty r
 - [complimentary colors](https://en.wikipedia.org/wiki/Complementary_colors) are not required
 - some classics are ultramarine blue and raw umber or alizarin red and pthalo blue
 
-<!-- ### High Contrast -->
+<!-- ## High Contrast -->
 
-<!-- ### Negative Painting -->
+<!-- ## Negative Painting -->
 
-### Tight Frame
+## Tight Frame
 - draw a box lightly with a pencil
 - leave a medium or large margin of blank paper around it
 - do a light sketch of whatever you want to paint
@@ -186,16 +188,16 @@ Some favorite exercises I used to use in my art classes. A lot of these pretty r
 - no objects should be completely visible in the frame
 - consider working with just one or two colors (see above)
 
-### Simple Still Life
+## Simple Still Life
 - a still life can be anything thats not a landscape or a portrait
 - often its a random close arrangement of three or more objects
 - at least two of the objects should probably be touching
 
-<!-- ### Simple Landscape -->
+<!-- ## Simple Landscape -->
 
-<!-- ### Simple Portrait -->
+<!-- ## Simple Portrait -->
 
-<!-- ### Simple Abstraction -->
+<!-- ## Simple Abstraction -->
 
-<!-- ### Master Copy -->
+<!-- ## Master Copy -->
 
