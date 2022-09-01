@@ -13,6 +13,8 @@
       background-size: 2500px;
       background-position: -250px -1250px;
       display: inline-block;
+      border: 1px solid black;
+      z-index: -1;
     }
     #row1-col1, #row1-col3, #row3-col1, #row3-col3 {
       width: 50px;
@@ -85,7 +87,7 @@
       <div id="row3-col3"></div>
     </div>
   </div>
-  <button onClick="normalizeColor()">random color</button>
+  <button onClick="normalizeColor()">color filter</button>
   <br>
   <button onClick="quarterGrid()">1/2 grid</button>
   <button onClick="eighthsGrid()">1/4 grid</button>
@@ -94,6 +96,22 @@
   <button onClick="invertGrid()">invert grid</button>
   <br>
   <button onClick="monochrome()">monochrome</button>
+  <br>
+  <label>contrast:</label>
+  <br>
+  <input id="rangeSlider" value="50" type="range" min="50" max="500" oninput="rangeChange()">
+  <br>
+  <label>saturation:</label>
+  <br>
+  <input id="saturationSlider" value="0" type="range" min="0" max="20" oninput="saturationChange()">
+  <br>
+  <label>color:</label>
+  <br>
+  <input id="colorSlider" value="0" type="range" min="0" max="360" oninput="colorChange()">
+  <br>
+  <label>brightness:</label>
+  <br>
+  <input id="brightSlider" value="0" type="range" min="0" max="25" oninput="brightChange()">
   <script>
     const images = [
       // {
@@ -157,18 +175,21 @@
     const imageNum = Math.floor(Math.random() * images.length);
     image.style.backgroundImage = `url("${images[imageNum].url}")`;
 
-    const size = Math.floor(Math.random() * 3000) + 1000;
-    const posOne = Math.floor(Math.random() * (size));
-    const posTwo = Math.floor(Math.random() * (size));
-    const invert = Math.floor(Math.random() * 1.1);
-    const hue = Math.floor(Math.random() * 360);
-    const contrast = Math.random() * 3;
-    const saturate = Math.random() * 3;
-    const sepia = Math.random();
-    const filter = `sepia(${sepia}) hue-rotate(${hue}deg) contrast(2) saturate(2) invert(0)`;
+    let size = Math.floor(Math.random() * 3000) + 1000;
+    let posOne = Math.floor(Math.random() * (size));
+    let posTwo = Math.floor(Math.random() * (size));
+    let invert = Math.floor(Math.random() * 1.1);
+    let hue = Math.floor(Math.random() * 360);
+    let contrast = Math.random() * 3;
+    let saturate = Math.random() * 3;
+    let sepia = 1;
+    let bright = 10;
+    // let filter = `sepia(${1}) hue-rotate(${hue}deg) contrast(${contrast}) saturate(${saturate}) invert(${invert}) brightness(${bright})`;
+    let filter = `sepia(0) hue-rotate() contrast() saturate() invert() brightness() invert()`;
 
-    const width = Math.floor(Math.random() * 300) + 200;
-    const height = Math.floor(Math.random() * 300) + 200;
+
+    let width = Math.floor(Math.random() * 300) + 200;
+    let height = Math.floor(Math.random() * 300) + 200;
 
     document.querySelector("#row1-col2").style.width = `${width}px`;
     document.querySelector("#row3-col2").style.width = `${width}px`;
@@ -306,6 +327,33 @@
         image.style.filter = "saturate(0)";
       }
       isMono = !isMono;
+    }
+
+    const rangeChange = () => {
+      contrast = rangeSlider.value / 100;
+      filter = `sepia(${sepia}) hue-rotate(${hue}deg) contrast(${contrast}) saturate(${saturate}) invert(0) brightness(${bright})`;
+      image.style.filter = filter;
+    }
+
+  saturationSlider
+  colorSlider
+
+    const saturationChange = () => {
+      saturate = saturationSlider.value;
+      filter = `sepia(${sepia}) hue-rotate(${hue}deg) contrast(${contrast}) saturate(${saturate}) invert(0) brightness(${bright})`;
+      image.style.filter = filter;
+    }
+
+    const colorChange = () => {
+      hue = colorSlider.value;
+      filter = `sepia(${sepia}) hue-rotate(${hue}deg) contrast(${contrast}) saturate(${saturate}) invert(0) brightness(${bright})`;
+      image.style.filter = filter;
+    }
+
+    const brightChange = () => {
+      bright = brightSlider.value;
+      filter = `sepia(${sepia}) hue-rotate(${hue}deg) contrast(${contrast}) saturate(${saturate}) invert(0) brightness(${bright})`;
+      image.style.filter = filter;
     }
   </script>
 </body>
