@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style>
+    #image-div {
+      width: 500px;
+      height: 300px;
+      background-image: url("https://images.metmuseum.org/CRDImages/ep/original/DP146453.jpg");
+      background-size: 2500px;
+      background-position: -250px -1250px;
+      display: inline-block;
+    }
+    #row1-col1, #row1-col3, #row3-col1, #row3-col3 {
+      width: 50px;
+      height: 50px;
+      display: inline-block;
+      margin: none;
+    }
+    #row1-col2, #row3-col2 {
+      display: inline-block;
+      height: 50px;
+      width: 500px;
+      margin: none;
+    }
+    #row2-col1, #row2-col3 {
+      display: inline-block;
+      width: 50px;
+      height: 300px;
+    }
+    #row1-col2, #row3-col2 {
+      border-right: 1px solid black;
+      border-left: 1px solid black;
+    }
+    #row2-col1, #row2-col3 {
+      border-top: 1px solid black;
+      border-bottom: 1px solid black;
+    }
+    #container {
+      display: block;
+      margin: auto;
+      width: 610px;
+      margin-top: 50px;
+      font-size: 0;
+    }
+    #eighths-grid-container, #quarter-grid-container, #thirds-grid-container {
+      position: absolute;
+    }
+    #row1-col2 {
+      font-size: 16px;
+      line-height: 50px;
+      text-align: center;
+    }
+    button {
+      margin-bottom: 5px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<script>
+  
+</script>
+<body>
+  <div id="container">
+    <div id="row1">
+      <div id="row1-col1"></div>
+      <div id="row1-col2">test</div>
+      <div id="row1-col3"></div>
+    </div>
+    <div id="row2">
+      <div id="row2-col1"></div>
+      <div id="image-div">
+        <div id="eighths-grid-container"></div>
+        <div id="thirds-grid-container"></div>
+        <div id="quarter-grid-container"></div>
+      </div>
+      <div id="row2-col3"></div>
+    </div>
+    <div id="row3">
+      <div id="row3-col1"></div>
+      <div id="row3-col2"></div>
+      <div id="row3-col3"></div>
+    </div>
+  </div>
+  <button onClick="normalizeColor()">random color</button>
+  <br>
+  <button onClick="quarterGrid()">1/2 grid</button>
+  <button onClick="eighthsGrid()">1/4 grid</button>
+  <button onClick="thirdsGrid()">1/3 grid</button>
+  <br>
+  <button onClick="invertGrid()">invert grid</button>
+  <br>
+  <button onClick="monochrome()">monochrome</button>
+  <script>
+    const images = [
+      {
+        url: "https://images.metmuseum.org/CRDImages/ep/original/DP146453.jpg",
+        text: "Grainfields, mid or late 1660s, Jacob van Ruisdael, Dutch",
+        link: "https://www.metmuseum.org/art/collection/search/437547?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;showOnly=openAccess&amp;ft=*&amp;offset=160&amp;rpp=40&amp;pos=162"
+      },
+      {
+        url: "https://images.metmuseum.org/CRDImages/ep/original/DT1502_cropped2.jpg",
+        text: "Self-Portrait with a Straw Hat (obverse: The Potato Peeler), 1887, Vincent van Gogh, Dutch",
+        link: "https://www.metmuseum.org/art/collection/search/436532?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;showOnly=openAccess&amp;ft=portrait&amp;offset=0&amp;rpp=40&amp;pos=5"
+      },
+      {
+        url: "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-011.jpg",
+        text: "Portrait of a Young Man, 1530s, Bronzino(Agnolo di Cosimo di Mariano), Italian",
+        link: "https://www.metmuseum.org/art/collection/search/436532?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;showOnly=openAccess&amp;ft=portrait&amp;offset=0&amp;rpp=40&amp;pos=5"
+      },
+      {
+        url: "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-047.jpg",
+        text: "Gardanne, 1885–86, Paul Cézanne, French",
+        link: "https://www.metmuseum.org/art/collection/search/435871?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=abstract&amp;offset=0&amp;rpp=40&amp;pos=23"
+      },
+      {
+        url: "https://images.metmuseum.org/CRDImages/ep/original/DT47.jpg",
+        text: "Still Life with Apples and a Pot of Primroses, ca. 1890, Paul Cézanne, French",
+        link: "https://www.metmuseum.org/art/collection/search/435871?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=abstract&amp;offset=0&amp;rpp=40&amp;pos=23"
+      },
+    ]
+    const image = document.querySelector("#image-div");
+
+    const imageNum = Math.floor(Math.random() * images.length);
+    image.style.backgroundImage = `url("${images[imageNum].url}")`;
+
+    const size = Math.floor(Math.random() * 3000) + 1000;
+    const posOne = Math.floor(Math.random() * (size));
+    const posTwo = Math.floor(Math.random() * (size));
+    const invert = Math.floor(Math.random() * 1.1);
+    const hue = Math.floor(Math.random() * 360);
+    const contrast = Math.random() * 3;
+    const saturate = Math.random() * 3;
+    const sepia = Math.random();
+    const filter = `sepia(${sepia}) hue-rotate(${hue}deg) contrast(2) saturate(2) invert(0)`;
+
+    const width = Math.floor(Math.random() * 300) + 200;
+    const height = Math.floor(Math.random() * 300) + 200;
+
+    document.querySelector("#row1-col2").style.width = `${width}px`;
+    document.querySelector("#row3-col2").style.width = `${width}px`;
+
+    document.querySelector("#row2-col1").style.height = `${height}px`;
+    document.querySelector("#row2-col3").style.height = `${height}px`;
+    
+    document.querySelector("#row1-col2").innerHTML = `${Math.round((Math.round(width / 25) * 25)) / 100} x ${Math.round((Math.round(height / 25) * 25)) / 100}`;
+    
+    document.querySelector("#container").style.width = `${width + 110}px`;
+
+    image.style.width = `${width}px`;
+    image.style.height = `${height}px`;
+    image.style.backgroundSize = `${size}px`;
+    image.style.backgroundPosition = `-${posOne}px -${posTwo}px`;
+    image.style.backgroundPosition = `-${posOne}px -${posTwo}px`;
+    // image.style.filter = filter;
+
+
+
+    let isColorNormal = true;
+    const normalizeColor = () => {
+      image.style.filter = isColorNormal ? filter : "";
+      isColorNormal = !isColorNormal;
+    };
+
+    let iseighthsGrid = false;
+    const eighthsGrid = () => {
+      let gridContainer = document.querySelector("#eighths-grid-container");
+      if (!iseighthsGrid) {
+        for (let i = 1; i <= 16; i++) {
+          let gridBox = document.createElement("div");
+          gridBox.style.display = `inline-block`;
+          gridBox.style.width = `${width / 4}px`;
+          gridBox.style.height = `${height / 4}px`;
+          gridBox.style.borderBottom = `1px solid white`;
+          gridBox.style.borderRight = `1px solid white`;
+          gridBox.style.boxSizing = `border-box`;
+          
+          gridContainer.appendChild(gridBox);
+          if (i % 4 === 0) {
+            gridBox.style.borderRight = `none`;
+            gridContainer.appendChild(document.createElement("br"));
+          }
+          if (i > 12) {
+            gridBox.style.borderBottom = "none";
+          }
+        }
+      } else {
+        gridContainer.innerHTML = "";
+      }
+      iseighthsGrid = !iseighthsGrid;
+    }
+
+    let isThirdsGrid = false;
+    const thirdsGrid = () => {
+      let gridContainer = document.querySelector("#thirds-grid-container");
+      if (!isThirdsGrid) {
+        for (let i = 1; i <= 9; i++) {
+          let gridBox = document.createElement("div");
+          gridBox.style.display = `inline-block`;
+          gridBox.style.width = `${width / 3}px`;
+          gridBox.style.height = `${height / 3}px`;
+          gridBox.style.borderBottom = `1px dashed white`;
+          gridBox.style.borderRight = `1px dashed white`;
+          gridBox.style.boxSizing = `border-box`;
+          
+          gridContainer.appendChild(gridBox);
+          if (i % 3 === 0) {
+            gridBox.style.borderRight = `none`;
+            gridContainer.appendChild(document.createElement("br"));
+          }
+          if (i > 6) {
+            gridBox.style.borderBottom = "none";
+          }
+        }
+      } else {
+        gridContainer.innerHTML = "";
+      }
+      isThirdsGrid = !isThirdsGrid;
+    }
+
+    let isQuarterGrid = false;
+    const quarterGrid = () => {
+      let gridContainer = document.querySelector("#quarter-grid-container");
+      if (!isQuarterGrid) {
+        for (let i = 1; i <= 4; i++) {
+          let gridBox = document.createElement("div");
+          gridBox.style.display = `inline-block`;
+          gridBox.style.width = `${width / 2}px`;
+          gridBox.style.height = `${height / 2}px`;
+          gridBox.style.borderBottom = `2px solid white`;
+          gridBox.style.borderRight = `2px solid white`;
+          gridBox.style.boxSizing = `border-box`;
+          
+          gridContainer.appendChild(gridBox);
+          if (i % 2 === 0) {
+            gridBox.style.borderRight = `none`;
+            gridContainer.appendChild(document.createElement("br"));
+          }
+          if (i > 2) {
+            gridBox.style.borderBottom = "none";
+          }
+        }
+      } else {
+        gridContainer.innerHTML = "";
+      }
+      isQuarterGrid = !isQuarterGrid;
+    }
+
+    let isGridBlack = true;
+    const invertGrid = () => {
+      let quarter = document.querySelector("#quarter-grid-container");
+      let eighths = document.querySelector("#eighths-grid-container");
+      let thirds = document.querySelector("#thirds-grid-container");
+
+      if (isGridBlack) {
+        quarter.style.filter = "invert(1)";
+        eighths.style.filter = "invert(1)";
+        thirds.style.filter = "invert(1)";
+      } else {
+        quarter.style.filter = "invert(0)";
+        eighths.style.filter = "invert(0)";
+        thirds.style.filter = "invert(0)";
+      }
+
+      isGridBlack = !isGridBlack;
+    }
+
+    let isMono = false;
+    const monochrome = () => {
+      if (isMono) {
+        image.style.filter = "";
+      } else {
+        image.style.filter = "saturate(0)";
+      }
+      isMono = !isMono;
+    }
+  </script>
+</body>
+</html>
