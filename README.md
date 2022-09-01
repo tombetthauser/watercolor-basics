@@ -175,7 +175,17 @@ Some favorite exercises I used to use in my art classes. A lot of these pretty r
 - [complimentary colors](https://en.wikipedia.org/wiki/Complementary_colors) are not required
 - some classics are ultramarine blue and raw umber or alizarin red and pthalo blue
 
-<!-- ## High Contrast -->
+## High Contrast
+- choose a single dark color adding very little water
+- try to zoom way in on your subject (see tight frame exersise)
+- try to paint only with 100% colored areas and 100% white areas
+- try to not use any soft fades / gradients
+- try to have only sharp edges
+- try not to paint lines / outlines
+- try to find the weird shapes of individual shadowed areas and individual light areas
+- optionally do a light pencil sketch to start
+- optionally use a single bright (unfrosted if possible) light bulb in a dark room on your subject
+- optionally use a bright / complementary color instead of white
 
 <!-- ## Negative Painting -->
 
@@ -187,11 +197,15 @@ Some favorite exercises I used to use in my art classes. A lot of these pretty r
 - make sure every feature or object is cutoff by at least one side of your box
 - no objects should be completely visible in the frame
 - consider working with just one or two colors (see above)
+- optionally make a viewfinder by cutting a 2-5 centimeter rectangle out of dark paper or cardstock etc
+- you can use the viewfinder at armslength (roughly) to find good compositions
+- viewfinders are awesome
 
 ## Simple Still Life
 - a still life can be anything thats not a landscape or a portrait
 - often its a random close arrangement of three or more objects
 - at least two of the objects should probably be touching
+- definitely consider combining this with another exersise
 
 <!-- ## Simple Landscape -->
 
