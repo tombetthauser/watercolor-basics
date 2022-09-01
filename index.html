@@ -96,31 +96,61 @@
   <button onClick="monochrome()">monochrome</button>
   <script>
     const images = [
+      // {
+      //   url: "https://images.metmuseum.org/CRDImages/ep/original/DP146453.jpg",
+      //   text: "Grainfields, mid or late 1660s, Jacob van Ruisdael, Dutch",
+      //   link: "https://www.metmuseum.org/art/collection/search/437547?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;showOnly=openAccess&amp;ft=*&amp;offset=160&amp;rpp=40&amp;pos=162"
+      // },
+      // {
+      //   url: "https://images.metmuseum.org/CRDImages/ep/original/DT1502_cropped2.jpg",
+      //   text: "Self-Portrait with a Straw Hat (obverse: The Potato Peeler), 1887, Vincent van Gogh, Dutch",
+      //   link: "https://www.metmuseum.org/art/collection/search/436532?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;showOnly=openAccess&amp;ft=portrait&amp;offset=0&amp;rpp=40&amp;pos=5"
+      // },
+      // {
+      //   url: "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-011.jpg",
+      //   text: "Portrait of a Young Man, 1530s, Bronzino(Agnolo di Cosimo di Mariano), Italian",
+      //   link: "https://www.metmuseum.org/art/collection/search/436532?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;showOnly=openAccess&amp;ft=portrait&amp;offset=0&amp;rpp=40&amp;pos=5"
+      // },
+      // {
+      //   url: "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-047.jpg",
+      //   text: "Gardanne, 1885–86, Paul Cézanne, French",
+      //   link: "https://www.metmuseum.org/art/collection/search/435871?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=abstract&amp;offset=0&amp;rpp=40&amp;pos=23"
+      // },
+      // {
+      //   url: "https://images.metmuseum.org/CRDImages/ep/original/DT47.jpg",
+      //   text: "Still Life with Apples and a Pot of Primroses, ca. 1890, Paul Cézanne, French",
+      //   link: "https://www.metmuseum.org/art/collection/search/435871?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=abstract&amp;offset=0&amp;rpp=40&amp;pos=23"
+      // },
       {
-        url: "https://images.metmuseum.org/CRDImages/ep/original/DP146453.jpg",
-        text: "Grainfields, mid or late 1660s, Jacob van Ruisdael, Dutch",
-        link: "https://www.metmuseum.org/art/collection/search/437547?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;showOnly=openAccess&amp;ft=*&amp;offset=160&amp;rpp=40&amp;pos=162"
+        url: "https://images.metmuseum.org/CRDImages/ep/original/DP375107.jpg",
+        link: "https://www.metmuseum.org/art/collection/search/679844?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=bruegel&amp;offset=0&amp;rpp=40&amp;pos=32",
+        text: "Fish Market, 1568, Joachim Beuckelaer, Netherlandish"
       },
       {
-        url: "https://images.metmuseum.org/CRDImages/ep/original/DT1502_cropped2.jpg",
-        text: "Self-Portrait with a Straw Hat (obverse: The Potato Peeler), 1887, Vincent van Gogh, Dutch",
-        link: "https://www.metmuseum.org/art/collection/search/436532?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;showOnly=openAccess&amp;ft=portrait&amp;offset=0&amp;rpp=40&amp;pos=5"
+        url: "https://images.metmuseum.org/CRDImages/ep/original/DT1465.jpg",
+        link: "https://www.metmuseum.org/art/collection/search/437054?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=bruegel&amp;offset=0&amp;rpp=40&amp;pos=20",
+        text: "Virgin and Child with Saints Catherine of Alexandria and Barbara, early 1480s, Hans Memling, Netherlandish"
       },
       {
-        url: "https://images.metmuseum.org/CRDImages/ep/original/DP-14286-011.jpg",
-        text: "Portrait of a Young Man, 1530s, Bronzino(Agnolo di Cosimo di Mariano), Italian",
-        link: "https://www.metmuseum.org/art/collection/search/436532?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;showOnly=openAccess&amp;ft=portrait&amp;offset=0&amp;rpp=40&amp;pos=5"
+        url: "https://images.metmuseum.org/CRDImages/ep/original/DP-14962-001.jpg",
+        link: "https://www.metmuseum.org/art/collection/search/437229?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=bruegel&amp;offset=0&amp;rpp=40&amp;pos=22",
+        text: "Virgin and Child with Angels, ca. 1518, Bernard van Orley, Netherlandish"
       },
       {
-        url: "https://images.metmuseum.org/CRDImages/ep/original/DP-14936-047.jpg",
-        text: "Gardanne, 1885–86, Paul Cézanne, French",
-        link: "https://www.metmuseum.org/art/collection/search/435871?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=abstract&amp;offset=0&amp;rpp=40&amp;pos=23"
+        url: "https://images.metmuseum.org/CRDImages/rl/original/DT1463.jpg",
+        link: "https://www.metmuseum.org/art/collection/search/459058?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=bruegel&amp;offset=40&amp;rpp=40&amp;pos=48",
+        text: "The Adoration of the Christ Child, possibly 1496–1502, Workshop of the Master of Frankfurt, Netherlandish"
       },
       {
-        url: "https://images.metmuseum.org/CRDImages/ep/original/DT47.jpg",
-        text: "Still Life with Apples and a Pot of Primroses, ca. 1890, Paul Cézanne, French",
-        link: "https://www.metmuseum.org/art/collection/search/435871?searchField=All&amp;sortBy=relevance&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=abstract&amp;offset=0&amp;rpp=40&amp;pos=23"
+        url: "https://images.metmuseum.org/CRDImages/ep/original/DP333085.jpg",
+        link: "https://www.metmuseum.org/art/collection/search/657683?searchField=All&amp;sortBy=relevance&amp;when=A.D.+1400-1600&amp;what=Paintings&amp;od=on&amp;showOnly=openAccess&amp;ft=*&amp;offset=0&amp;rpp=40&amp;pos=1",
+        text: " The Lamentation, ca. 1514–16, Ludovico Mazzolino, Italian"
       },
+      // {
+      //   url: "",
+      //   link: "",
+      //   text: ""
+      // },
     ]
     const image = document.querySelector("#image-div");
 
